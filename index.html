@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sim City Bomb Squad</title>
-  </head>
-  <body>
-    <!-- Your code here -->
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sim City Bomb Squad</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="unexploded">
+  <main>
+    <div>
+      <p class="green" id="timertext">0:0:00:00</p>
+    </div>
+    <div id="wirebox">
+      <img id="blue" src="img/uncut-blue-wire.png" alt="">
+      <img id="green" src="img/uncut-green-wire.png" alt="">
+      <img id="red" src="img/uncut-red-wire.png" alt="">
+      <img id="white" src="img/uncut-white-wire.png" alt="">
+      <img id="yellow" src="img/uncut-yellow-wire.png" alt="">
+    </div>
+    <div>
+      <button id="reset">RESET</button>
+      <button ID="start">START</button>
+    </div>
+  </main>
+
+  <script src="bomb.js"></script>
+</body>
+
 </html>
